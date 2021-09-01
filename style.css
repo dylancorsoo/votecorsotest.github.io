@@ -1,0 +1,250 @@
+.mt-6 {
+  margin-top: ($spacer * 1.25) !important;
+}
+
+a{
+font-family: 'Ubuntu', sans-serif
+}
+
+h2{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+}
+
+h3{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+}
+
+h1{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+}
+
+p{
+    color:rgb(107, 107, 107);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h2{
+    color:white;
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h5{
+    color:rgb(180, 179, 179);
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+h6{
+    color:rgb(175, 174, 174);
+    font-family: 'Ubuntu', sans-serif
+
+}
+
+
+body{
+    background-color: rgb(23, 21, 21);
+}
+
+.imgrow {
+    float: center;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.imgrow2 {
+    float: left;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+.imgrow3 {
+    float: center;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.imgrow4 {
+    float: right;
+    width:  auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.back{
+  background-color: rgb(107, 105, 100);
+}
+
+.outset {
+  border-style: outset;
+  border-color: rgb(255, 255, 255);
+}
+
+.darkblu{
+  background-color: rgb(30, 28, 54);
+}
+
+.black{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.border{
+    border: 2px;
+    border-color:  rgb(235, 64, 52);
+    border-radius: 5px;
+}
+
+@keyframes slidefwd {
+  0% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes slidebck {
+  0% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+.slidefwd{
+    animation: slidebck 0.3s cubic-bezier(0.32, 0, 0.67, 0) 1 normal forwards;
+}
+
+.slidefwd:hover{
+  animation: slidefwd 0.3s cubic-bezier(0.32, 0, 0.67, 0) 1 normal forwards;
+}
+
+p{
+  justify-content: center;
+  color: white;
+}
+
+.font{
+font-family: bdr-mono,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.font2{
+font-family: "Ubuntu",sans-serif;
+font-style: normal;
+}
+
+.fontlg{
+  font-size: 700%;
+}
+
+.fontxm{
+  font-size: 400%;
+}
+
+.fontstop{
+  font-size: 380%;
+}
+
+.fontmed{
+  font-size: 200%;
+}
+
+.fontmedmed{
+  font-size:200%;
+}
+
+.fontsm{
+  font-size: 100%;
+}
+
+.divtall{
+  height: 300%;
+}
+
+
+.lightblu {
+  color: blue;
+}
+
+.white {
+  color: white;
+}
+
+.borderl {
+  border-left: 5px solid blue;
+  border-spacing: 5px;
+}
+
+.borderb {
+  border-bottom: 5px solid blue;
+  border-spacing: 5px;
+}
+
+.borderbs{
+  border-bottom: 3px solid blue;
+  border-spacing: 5px;
+}
+
+.borderwb {
+  border-bottom: 5px solid white;
+  border-spacing: 5px;
+}
+
+.borderwbs{
+  border-bottom: 3px solid white;
+  border-spacing: 5px;
+}
+
+
+.shadowblu {
+  text-shadow: 8px 0px blue, 16px 0px white, 20px 0px blue;
+}
+
+.shadowwhite {
+  text-shadow: 4px 0px white;
+}
+
+@keyframes slideinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slideinleft {
+  animation: slideinleft 1s ease 0s 1 normal forwards;
+}
+
+.slideinslow {
+  animation: slideinleft 2s ease 0s 1 normal forwards;
+}
+
+.slideinslower {
+  animation: slideinleft 2.5s ease 0s 1 normal forwards;
+}
+
+.bgblue:hover {
+  background-color: blue;
+}
